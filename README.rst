@@ -8,6 +8,11 @@ Requirements:
  - python >= 2.7
  - python-lxml >= 2.3
 
+Installation:
+-------------
+ - `pip install python-fio`
+ - or download source tarball and run `python setup.py install`
+
 Usage:
 ------
 
