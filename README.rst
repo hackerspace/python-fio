@@ -4,14 +4,19 @@ Fio scraper
 Fio bank [http://fio.cz] transparent account data scraper.
 
 Requirements:
+--------------
  - python >= 2.7
  - python-lxml >= 2.3
 
 Usage:
- - import fio
- - url = ('https://www.fio.cz/scgi-bin/hermes/dz-transparent.cgi?ID_ucet=%d'
-        % account_num)
- - data = fio.scrape(url)
+------
+
+::
+
+        import fio
+        url = ('https://www.fio.cz/scgi-bin/hermes/dz-transparent.cgi?ID_ucet=%d'
+                % account_num)
+        data = fio.scrape(url)
 
 Sample output:
 --------------
